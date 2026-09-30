@@ -1,0 +1,47 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# PHP
+/vendor/
+composer.lock
+
+# Node / TypeScript
+node_modules/
+dist/
+build/
+.next/
+coverage/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Runtime / local databases
+runtime/
+*.sqlite
+*.sqlite3
+*.db
+
+# User custom data and downloaded packs
+/custom/local/
+/data-packs/downloaded/
+/uploads/
+/backups/
+/logs/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
